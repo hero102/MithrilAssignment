@@ -1,1 +1,125 @@
 BankApp Created.
+ Demo:-
+
+
+========= Console Bank =========
+1. Admin Login
+2. User Login
+3. Exit
+================================
+Choose an option: 1
+Enter Admin Username: admin
+Enter Admin Password: admin123
+
+--- Admin Menu ---
+1. Create Account
+2. View Accounts
+3. Set Account Status (Active/Inactive)
+4. View All Transactions
+5. Logout
+Choose an option: 1
+Enter Customer Name: Prashant
+Set 4-digit PIN: 1234
+Enter Initial Deposit: 12000
+✅ Account created successfully! Account ID: 101
+
+--- Admin Menu ---
+Choose an option: 5
+🔙 Logging out from Admin...
+
+========= Console Bank =========
+1. Admin Login
+2. User Login
+3. Exit
+================================
+Choose an option: 2
+Enter Account ID: 101
+Enter PIN: 1234
+
+--- User Menu ---
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Transfer Funds
+5. Transaction History
+6. Update PIN
+7. Logout
+Choose an option: 1
+💰 Current Balance: ₹12000.00
+
+--- User Menu ---
+Choose an option: 2
+Enter deposit amount (₹): 3000
+Enter PIN: 1234
+✅ Deposit successful!
+
+=========== Transaction Receipt ===========
+Transaction Type : DEPOSIT
+Account Holder   : Prashant
+Account ID       : 101
+Date & Time      : 30-07-2025 10:15:22
+Amount           : ₹3000.00
+Updated Balance  : ₹15000.00
+===========================================
+
+--- User Menu ---
+Choose an option: 3
+Enter withdrawal amount (₹): 2000
+Enter PIN: 1234
+✅ Withdrawal successful!
+
+=========== Transaction Receipt ===========
+Transaction Type : WITHDRAW
+Account Holder   : Prashant
+Account ID       : 101
+Date & Time      : 30-07-2025 10:20:45
+Amount           : ₹2000.00
+Updated Balance  : ₹13000.00
+===========================================
+
+--- User Menu ---
+Choose an option: 4
+Enter Receiver Account ID: 102
+Enter transfer amount (₹): 5000
+Enter your PIN: 1234
+✅ Transfer successful!
+
+=========== Transfer Receipt ===========
+Transaction Type : TRANSFER
+Date & Time      : 30-07-2025 10:25:18
+-----------------------------------------
+Sender:
+   Account Holder : Prashant
+   Account ID     : 101
+   Amount Sent    : ₹5000.00
+   New Balance    : ₹8000.00
+-----------------------------------------
+Receiver:
+   Account Holder : Rahul
+   Account ID     : 102
+   Amount Received: ₹5000.00
+   New Balance    : ₹7000.00
+=========================================
+
+--- User Menu ---
+Choose an option: 5
+
+=============== Transaction History ===============
+ID    From       To         Amount(₹)   Date & Time          Type        
+---------------------------------------------------
+1     BANK       101        3000.00     30-07-2025 10:15:22 DEPOSIT     
+2     101        BANK       2000.00     30-07-2025 10:20:45 WITHDRAW    
+3     101        102        5000.00     30-07-2025 10:25:18 TRANSFER    
+===================================================
+
+--- User Menu ---
+Choose an option: 7
+🔙 Logging out...
+
+========= Console Bank =========
+1. Admin Login
+2. User Login
+3. Exit
+================================
+Choose an option: 3
+✅ Thank you for using Console Bank!
