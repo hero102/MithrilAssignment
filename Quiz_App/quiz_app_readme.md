@@ -100,6 +100,4 @@ This project is licensed under the MIT License.
 
 **Prashant Kumar Pandey**
 
-- GitHub: [SEA133\_Prashantkumar](https://github.com/SEA133_Prashantkumar)
-- LinkedIn: [linkedin.com/in/prashant-pandey](https://www.linkedin.com/in/prashant-pandey/)
 
